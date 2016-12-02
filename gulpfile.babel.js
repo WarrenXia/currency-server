@@ -11,7 +11,7 @@ gulp.task('babel', (cb) => {
     console.log('🎉  babel done');
 });
 // 启动server
-gulp.task('server', (cb) => {
+gulp.task('server', () => {
   nodemon({
     script: './app/app.js',
     ext: 'js',

@@ -1,5 +1,5 @@
 {
-  "name": "currency-agent",
+  "name": "currency-server",
   "version": "0.0.1",
   "private": true,
   "scripts": {

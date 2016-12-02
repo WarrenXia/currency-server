@@ -1,11 +1,19 @@
 {
-  "dependencies": {
-    "koa": "2",
-    "koa-router": "next"
-  },
+  "name": "currency-agent",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
     "start": "gulp",
     "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WarrenXia/currency-server.git"
+  },
+  "author": "neoxia <xsh613@gmail.com>",
+  "dependencies": {
+    "koa": "2",
+    "koa-router": "next"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
